@@ -521,10 +521,10 @@ packages:
     dependency: "direct main"
     description:
       name: storebounty_checkout
-      sha256: d7ac6dd8217327d67b8bee29a73962f389fe30835d873c644f404e865eaf31a0
+      sha256: c1dd4f8c4a7949f37fca30a45a4cf1a72620b22404d4a85d6f01079f3d01c886
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.5"
+    version: "0.0.6"
   storebounty_init:
     dependency: "direct main"
     description:
@@ -537,10 +537,10 @@ packages:
     dependency: "direct main"
     description:
       name: storebounty_onboarding
-      sha256: abe89af72ae9d4f1b5381a67ba6057c64b81bd06e17037b8c993d042bd27affd
+      sha256: "2243429e2e9f34e697a38836ffeea68d7d4c088e270bd0cd3431c4f997f26e50"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.2"
+    version: "0.0.3"
   storebounty_themes:
     dependency: "direct main"
     description:

@@ -37,10 +37,10 @@ dependencies:
   cupertino_icons: ^1.0.2
   storebounty_init: ^0.0.2
   storebounty_cart_manager: ^0.0.4
-  storebounty_onboarding: ^0.0.2
+  storebounty_onboarding: ^0.0.3
   storebounty_themes: ^0.0.4
   storebounty_auth: ^0.0.2
-  storebounty_checkout: ^0.0.5
+  storebounty_checkout: ^0.0.6
 
 dev_dependencies:
   flutter_test:

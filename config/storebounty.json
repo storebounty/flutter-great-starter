@@ -1,18 +1,18 @@
 {
   "APP_ID": "storebounty",
-  "STORE_ID": "YOUR STORE_ID",
-  "X_ACCESS_TOKEN": "YOUR TOKEN",
+  "STORE_ID": 13283,
+  "X_ACCESS_TOKEN": "4e4c7f2e-5d5a-46b1-bfa6-e5d8f35f6b5b-50541ec6-f5e1-47ea-aa74-0a67aee45e41",
   "BASE_URL": "https://apis-dev.ibunchng.com",
   "VERSION": "v1",
   "THEME": "sabo",
-  "CHECKOUTTHEME":"SABO",
+  "CHECKOUT_THEME":"SABO",
   "ONBOARDING": [
     {
       "ID": 1,
       "TITLE": "Your style tells about you",
       "DESCRIPTION": "There are many clothes with designs that are suitable for you today",
       "IMAGE": "",
-      "BUTTONTXT": "Continue"
+      "BUTTON_TEXT": "Continue"
 
     },
     {
@@ -20,7 +20,7 @@
       "TITLE": "Level up your lifestyle",
       "DESCRIPTION": "There are many clothes with designs that are suitable for you today",
       "IMAGE": "",
-      "BUTTONTXT": "Continue"
+      "BUTTON_TEXT": "Continue"
 
     },
     {
@@ -28,11 +28,11 @@
       "TITLE": "Your style tells about you",
       "DESCRIPTION": "There are many clothes with designs that are suitable for you today",
       "IMAGE": "",
-      "BUTTONTXT": "Get started"
+      "BUTTON_TEXT": "Get started"
 
     }
   ],
-  "CHECKOUTTHEMES": [
+  "CHECKOUT_THEMES": [
     {
       "NAME": "version1",
       "ACTIVE": false
