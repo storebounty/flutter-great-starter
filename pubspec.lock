@@ -146,10 +146,10 @@ packages:
     dependency: "direct dev"
     description:
       name: flutter_lints
-      sha256: aeb0b80a8b3709709c9cc496cdc027c5b3216796bc0af0ce1007eaf24464fd4c
+      sha256: "2118df84ef0c3ca93f96123a616ae8540879991b8b57af2f81b76a7ada49b2a4"
       url: "https://pub.dev"
     source: hosted
-    version: "2.0.1"
+    version: "2.0.2"
   flutter_paystack:
     dependency: transitive
     description:
@@ -444,10 +444,10 @@ packages:
     dependency: transitive
     description:
       name: shared_preferences_platform_interface
-      sha256: fb5cf25c0235df2d0640ac1b1174f6466bd311f621574997ac59018a6664548d
+      sha256: "23b052f17a25b90ff2b61aad4cc962154da76fb62848a9ce088efe30d7c50ab1"
       url: "https://pub.dev"
     source: hosted
-    version: "2.2.0"
+    version: "2.3.0"
   shared_preferences_web:
     dependency: transitive
     description:
@@ -505,50 +505,50 @@ packages:
     dependency: "direct main"
     description:
       name: storebounty_auth
-      sha256: d00f7bf945d7699287485825a176218ccb8555fe966282875981732ad0e0e4a5
+      sha256: c599f0fbbc5a52b75e388e2879bfff6aba3a3292574e5e74c61e4bf88e7219c4
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.2"
+    version: "0.0.4"
   storebounty_cart_manager:
     dependency: "direct main"
     description:
       name: storebounty_cart_manager
-      sha256: a55aad24c1970e58d8257b07039f4c97e9d882e8f69f2128ecad735af1fa33f5
+      sha256: f2b980ae04bc20831b5244a42c916452997f7542184d576a33f84302c6f5df51
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.4"
+    version: "0.0.6"
   storebounty_checkout:
     dependency: "direct main"
     description:
       name: storebounty_checkout
-      sha256: c1dd4f8c4a7949f37fca30a45a4cf1a72620b22404d4a85d6f01079f3d01c886
+      sha256: "301af782c3f2522dccd8bb3c81feeecbc4a0aebd011fab5d5890dfbae087cc7e"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.6"
+    version: "0.0.7"
   storebounty_init:
     dependency: "direct main"
     description:
       name: storebounty_init
-      sha256: "63f541fed98ce4fb2ccb7791b9329df450aa95fdd9401236e6fc93379f8e7762"
+      sha256: f302b10cdb35f44e3370494513e5f4df17c8989f0cb6c3aaf948f701f8b76872
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.2"
+    version: "0.1.1"
   storebounty_onboarding:
     dependency: "direct main"
     description:
       name: storebounty_onboarding
-      sha256: "2243429e2e9f34e697a38836ffeea68d7d4c088e270bd0cd3431c4f997f26e50"
+      sha256: "181d23b31923c96ec87e2e5daff8d339942dee99dc5249876cd92e24874d6b00"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.3"
+    version: "0.0.5"
   storebounty_themes:
     dependency: "direct main"
     description:
       name: storebounty_themes
-      sha256: bad20e33b0759a5a0e1cad51c811b84ae84e9cf613f40ff16cb6e69f360543d0
+      sha256: "360cdd6cb9ac60b6c65dd80c160581c9588702e2623bb4892bd669f8c3b512f4"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.4"
+    version: "0.0.6"
   stream_channel:
     dependency: transitive
     description:
