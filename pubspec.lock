@@ -142,14 +142,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.3.0"
-  flutter_lints:
-    dependency: "direct dev"
-    description:
-      name: flutter_lints
-      sha256: "2118df84ef0c3ca93f96123a616ae8540879991b8b57af2f81b76a7ada49b2a4"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.2"
   flutter_paystack:
     dependency: transitive
     description:
@@ -232,14 +224,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.5"
-  lints:
-    dependency: transitive
-    description:
-      name: lints
-      sha256: "5e4a9cd06d447758280a8ac2405101e0e2094d2a1dbdd3756aec3fe7775ba593"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.0.1"
   loading_overlay:
     dependency: transitive
     description:
@@ -501,54 +485,62 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.11.0"
+  storebounty_account:
+    dependency: "direct main"
+    description:
+      name: storebounty_account
+      sha256: "144f67a43c2f56122851f14c004f3cc4274468ad991dd5c8750b68d2efcdc01b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.1"
   storebounty_auth:
     dependency: "direct main"
     description:
       name: storebounty_auth
-      sha256: c599f0fbbc5a52b75e388e2879bfff6aba3a3292574e5e74c61e4bf88e7219c4
+      sha256: e681d391bd01fef6f159e47c2a3ad16a865c95cc4bcc9ede2892685a2ba97dcd
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.4"
+    version: "0.0.5"
   storebounty_cart_manager:
     dependency: "direct main"
     description:
       name: storebounty_cart_manager
-      sha256: f2b980ae04bc20831b5244a42c916452997f7542184d576a33f84302c6f5df51
+      sha256: "5afcdd137151da7eef9f9345d819baff840ce3a445ac63666958472fe0db9e35"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.6"
+    version: "0.0.7"
   storebounty_checkout:
     dependency: "direct main"
     description:
       name: storebounty_checkout
-      sha256: "301af782c3f2522dccd8bb3c81feeecbc4a0aebd011fab5d5890dfbae087cc7e"
+      sha256: f94de2386691acf585d8b37018f682ccb4c5ecc4b2cdeefaa888bc06332fc6ee
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.7"
+    version: "0.0.8"
   storebounty_init:
     dependency: "direct main"
     description:
       name: storebounty_init
-      sha256: f302b10cdb35f44e3370494513e5f4df17c8989f0cb6c3aaf948f701f8b76872
+      sha256: "08821eff033d8d39160f1faf55c65de2fbe4796eb62bb372e73d09a1a97085b0"
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.1"
+    version: "0.2.5-dev"
   storebounty_onboarding:
     dependency: "direct main"
     description:
       name: storebounty_onboarding
-      sha256: "181d23b31923c96ec87e2e5daff8d339942dee99dc5249876cd92e24874d6b00"
+      sha256: fbc7e2a88331611afc77af9bf9f94a11d39d6b0a8497286839d3cac534dab280
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.5"
+    version: "0.0.7"
   storebounty_themes:
     dependency: "direct main"
     description:
       name: storebounty_themes
-      sha256: "360cdd6cb9ac60b6c65dd80c160581c9588702e2623bb4892bd669f8c3b512f4"
+      sha256: "7bc8ec5f0455d5d5671df5096d3ddf5842ae303254868a337269f81261288a79"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.6"
+    version: "0.1.9-dev"
   stream_channel:
     dependency: transitive
     description:
