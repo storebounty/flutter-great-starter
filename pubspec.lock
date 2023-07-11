@@ -121,6 +121,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.1.4"
+  file_picker:
+    dependency: transitive
+    description:
+      name: file_picker
+      sha256: "9d6e95ec73abbd31ec54d0e0df8a961017e165aba1395e462e5b31ea0c165daf"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.3.1"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -150,6 +158,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.7"
+  flutter_plugin_android_lifecycle:
+    dependency: transitive
+    description:
+      name: flutter_plugin_android_lifecycle
+      sha256: "950e77c2bbe1692bc0874fc7fb491b96a4dc340457f4ea1641443d0a6c1ea360"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.15"
   flutter_rating_bar:
     dependency: transitive
     description:
@@ -384,6 +400,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.2.4"
+  pusher_channels_flutter:
+    dependency: "direct main"
+    description:
+      name: pusher_channels_flutter
+      sha256: "7eb24298e143606883c1f01f493b482b2837b14d19bcff11f491aa6645b65bee"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.2"
   rxdart:
     dependency: transitive
     description:
@@ -489,18 +513,18 @@ packages:
     dependency: "direct main"
     description:
       name: storebounty_account
-      sha256: "144f67a43c2f56122851f14c004f3cc4274468ad991dd5c8750b68d2efcdc01b"
+      sha256: "08ee283626c3a3aca5ccf7c114f9c9fc541a7fc5a23be616806afc6a15f20064"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.1"
+    version: "0.0.2"
   storebounty_auth:
     dependency: "direct main"
     description:
       name: storebounty_auth
-      sha256: e681d391bd01fef6f159e47c2a3ad16a865c95cc4bcc9ede2892685a2ba97dcd
+      sha256: "75bcf0f979fd4fedc28b67006bef1ccc1f5a09328269d7c735674b7cb89c7779"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.5"
+    version: "0.0.6"
   storebounty_cart_manager:
     dependency: "direct main"
     description:
@@ -529,18 +553,18 @@ packages:
     dependency: "direct main"
     description:
       name: storebounty_onboarding
-      sha256: fbc7e2a88331611afc77af9bf9f94a11d39d6b0a8497286839d3cac534dab280
+      sha256: "5b2a6ec101d0eeefed16f41866019624550c88b3d1aa858d4bbabbe0ea0067f2"
       url: "https://pub.dev"
     source: hosted
-    version: "0.0.7"
+    version: "0.0.8"
   storebounty_themes:
     dependency: "direct main"
     description:
       name: storebounty_themes
-      sha256: "7bc8ec5f0455d5d5671df5096d3ddf5842ae303254868a337269f81261288a79"
+      sha256: "5e5e9556ed6269c928c6c4cc3371293b34502fff2d345471b753a0ba914d152f"
       url: "https://pub.dev"
     source: hosted
-    version: "0.1.9-dev"
+    version: "0.2.1"
   stream_channel:
     dependency: transitive
     description:

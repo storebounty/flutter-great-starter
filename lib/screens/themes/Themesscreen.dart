@@ -1,6 +1,7 @@
 import 'package:customer_app_demo/screens/auth/authscreen.dart';
 import 'package:customer_app_demo/screens/checkout/checkoutscreen.dart';
 import 'package:flutter/material.dart';
+import 'package:storebounty_account/profile/userprofile.dart';
 import 'package:storebounty_account/storebounty_account.dart';
 import 'package:storebounty_auth/storebounty_auth_v1.dart';
 import 'package:storebounty_themes/entry/entrypoint.dart';
@@ -36,6 +37,7 @@ class _ThemesScreenState extends State<ThemesScreen> {
       },
       favouriteWidget: UserFavourites(cardStyle: 'fullcard',),
       orderHistoryWidget: OrderHistory(),
+      userAccountWidget: StoreBountyUserProfile(),
     );
   }
 }

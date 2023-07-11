@@ -35,14 +35,15 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  pusher_channels_flutter: ^2.1.2
   storebounty_init: ^0.2.5-dev
   storebounty_cart_manager: ^0.0.7
-  storebounty_onboarding: ^0.0.7
-  storebounty_themes: ^0.1.9-dev
+  storebounty_onboarding: ^0.0.8
+  storebounty_themes: ^0.2.1
   
-  storebounty_auth: ^0.0.5
+  storebounty_auth: ^0.0.6
   storebounty_checkout: ^0.0.7
-  storebounty_account: ^0.0.1
+  storebounty_account: ^0.0.2
 
 dev_dependencies:
   flutter_test:

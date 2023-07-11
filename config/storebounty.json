@@ -6,6 +6,7 @@
   "VERSION": "v1",
   "THEME": "soweto",
   "CHECKOUT_THEME":"SABO",
+  "PUSHER_KEY":"9d9811c35339e56ab418",
   "ONBOARDING": [
     {
       "ID": 1,
