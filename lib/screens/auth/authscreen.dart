@@ -1,3 +1,4 @@
+import 'package:customer_app_demo/screens/themes/Themesscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/src/widgets/placeholder.dart';
@@ -16,7 +17,9 @@ class _AuthScreenState extends State<AuthScreen> {
   Widget build(BuildContext context) {
     return StorebountyAuthPage(
       onLoginSuccess: (){
-        Navigator.pop(context);
+        print("dadsadasds success");
+        // Navigator.pop(context);
+        Navigator.pushNamedAndRemoveUntil(context, ThemesScreen.pageId, (route) => false);
       },
       onLoginFailed: (){
 

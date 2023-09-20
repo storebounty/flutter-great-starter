@@ -8,7 +8,7 @@ import 'package:storebounty_onboarding/entry/entrypoint.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await StoreBountyInit.trigger(clearCache: true);
+  await StoreBountyInit.trigger(clearCache: true, isTest: false);
   runApp(const MyApp());
 }
 
