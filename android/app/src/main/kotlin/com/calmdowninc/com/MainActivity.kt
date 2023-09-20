@@ -1,4 +1,4 @@
-package com.example.customer_app_demo
+package com.calmdowninc.com
 
 import io.flutter.embedding.android.FlutterActivity
 

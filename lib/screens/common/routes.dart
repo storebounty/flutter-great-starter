@@ -1,5 +1,6 @@
 import 'package:customer_app_demo/screens/auth/authscreen.dart';
 import 'package:customer_app_demo/screens/checkout/checkoutscreen.dart';
+import 'package:customer_app_demo/screens/checkout/successpage.dart';
 import 'package:customer_app_demo/screens/onboarding/onboardingscreen.dart';
 import 'package:customer_app_demo/screens/themes/Themesscreen.dart';
 import 'package:customer_app_demo/screens/user/userprofile.dart';
@@ -11,6 +12,7 @@ Map<String, WidgetBuilder> routes() {
     AuthScreen.pageId: (context) => const AuthScreen(),
     OnBoardingScreen.pageId: (context) => const OnBoardingScreen(),
     CheckoutScreen.pageId: (context) => const CheckoutScreen(),
-    UserProfile.pageId: (context) => const UserProfile()
+    UserProfile.pageId: (context) => const UserProfile(),
+    SuccessPage.pageId: (context) => const SuccessPage()
   };
 }
