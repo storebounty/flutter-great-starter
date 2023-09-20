@@ -9,7 +9,7 @@
   "PUSHER_KEY":"[Contact the Store Bounty team]",
   "FORCE_CHECKOUT": true,
   "EMAIL_VALIDATION": false,
-  "GOOGLE_KEY": "[Contact the Store Bounty team]", 
+  "GOOGLE_KEY": "[Contact the Store Bounty team]",
   "ONBOARDING": [
     {
       "ID": 1,
