@@ -1,12 +1,13 @@
 {
   "APP_ID": "storebounty",
-  "STORE_ID": "13283",
-  "X_ACCESS_TOKEN": "4e4c7f2e-5d5a-46b1-bfa6-e5d8f35f6b5b-50541ec6-f5e1-47ea-aa74-0a67aee45e41",
-  "BASE_URL": "https://sb-apis.ibunchng.com",
+  "STORE_ID": "[Contact the Store Bounty team]",
+  "X_ACCESS_TOKEN": "[Contact the Store Bounty team]",
+  "BASE_URL": "[Contact the Store Bounty team]",
   "VERSION": "v1",
   "THEME": "sabo",
-  "CHECKOUT_THEME":"SABO",
-  "PUSHER_KEY":"9d9811c35339e56ab418",
+  "CHECKOUT_THEME": "SABO",
+  "GOOGLE_KEY": "[Contact the Store Bounty team]",
+  "PUSHER_KEY":"[Contact the Store Bounty team]",
   "ONBOARDING": [
     {
       "ID": 1,
