@@ -1,3 +1,4 @@
+import 'package:customer_app_demo/screens/themes/Themesscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:storebounty_account/profile/userprofile.dart';
 import 'package:storebounty_init/storebountyinit.dart';
@@ -15,7 +16,11 @@ class _UserProfileState extends State<UserProfile> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: StoreBountyUserProfile(),
+      child: StoreBountyUserProfile(
+        onLogout: (){
+        Navigator.pushNamedAndRemoveUntil(context, ThemesScreen.pageId, (route) => false);
+      },
+      ),
     );
   }
 }

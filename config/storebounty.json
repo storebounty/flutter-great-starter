@@ -1,12 +1,15 @@
 {
   "APP_ID": "storebounty",
-  "STORE_ID": "13283",
-  "X_ACCESS_TOKEN": "4e4c7f2e-5d5a-46b1-bfa6-e5d8f35f6b5b-50541ec6-f5e1-47ea-aa74-0a67aee45e41",
-  "BASE_URL": "https://sb-apis.ibunchng.com",
+  "STORE_ID": "72537",
+  "X_ACCESS_TOKEN": "7Xf3gRyZoHMbC9DqUL8TtNxlWnJv4puE6a5Ksz1QVA2GBSYec0rFijOPmwh",
+  "BASE_URL": "https://apis-dev.ibunchng.com",
   "VERSION": "v1",
   "THEME": "sabo",
-  "CHECKOUT_THEME":"SABO",
+  "CHECKOUT_THEME":"SOWETO",
   "PUSHER_KEY":"9d9811c35339e56ab418",
+  "FORCE_CHECKOUT": true,
+  "EMAIL_VALIDATION": false,
+  "GOOGLE_KEY": "AIzaSyBM1h_LkvrcpRcEAzYVjztCxZcZ0z4ybZA",
   "ONBOARDING": [
     {
       "ID": 1,
@@ -33,11 +36,11 @@
   "CHECKOUT_THEMES": [
     {
       "NAME": "version1",
-      "ACTIVE": false
+      "ACTIVE": true
     },
     {
       "NAME": "version2",
-      "ACTIVE": true
+      "ACTIVE": false
     }
   ]
 }

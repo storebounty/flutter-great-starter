@@ -1,3 +1,4 @@
+import 'package:customer_app_demo/screens/checkout/successpage.dart';
 import 'package:customer_app_demo/screens/themes/Themesscreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -23,6 +24,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
     return StoreBountyCheckout(
       onCompleted: (){
         Navigator.pushNamedAndRemoveUntil(context, ThemesScreen.pageId, (route) => false);
+        Navigator.pushNamed(context, SuccessPage.pageId);
       },
     );
   }

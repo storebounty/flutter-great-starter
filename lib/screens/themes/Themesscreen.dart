@@ -1,6 +1,7 @@
 import 'package:customer_app_demo/screens/auth/authscreen.dart';
 import 'package:customer_app_demo/screens/checkout/checkoutscreen.dart';
 import 'package:flutter/material.dart';
+import 'package:storebounty_account/common/storebountydrawer.dart';
 import 'package:storebounty_account/profile/userprofile.dart';
 import 'package:storebounty_account/storebounty_account.dart';
 import 'package:storebounty_auth/storebounty_auth_v1.dart';
@@ -15,7 +16,6 @@ class ThemesScreen extends StatefulWidget {
 }
 
 class _ThemesScreenState extends State<ThemesScreen> {
-
   @override
   void initState() {
     super.initState();
@@ -25,19 +25,28 @@ class _ThemesScreenState extends State<ThemesScreen> {
   Widget build(BuildContext context) {
     return StorebountyTheme(
       goToCheckout: () async {
-          //check if the user is logged use Storebounty_auth
-          var check = await StorebountyAuth.checkIfUserIsLoggedIn();
+        //check if the user is logged use Storebounty_auth
+        var check = await StorebountyAuth.checkIfUserIsLoggedIn();
 
-          if(check == null){
-            Navigator.pushNamed(context, AuthScreen.pageId);
-            return;
-          }
-          Navigator.pushNamed(context, CheckoutScreen.pageId);
-
+        if (check == null) {
+          Navigator.pushNamed(context, AuthScreen.pageId);
+          return;
+        }
+        Navigator.pushNamed(context, CheckoutScreen.pageId);
       },
-      favouriteWidget: UserFavourites(cardStyle: 'fullcard',),
       orderHistoryWidget: OrderHistory(),
-      userAccountWidget: StoreBountyUserProfile(),
+      userAccountWidget: StoreBountyUserProfile(
+        onLogout: () {
+          Navigator.pushNamedAndRemoveUntil(
+              context, ThemesScreen.pageId, (route) => false);
+        },
+      ),
+      drawerContent: StorebountyDrawer(
+        onLogout: () {
+          Navigator.pushNamedAndRemoveUntil(
+              context, ThemesScreen.pageId, (route) => false);
+        },
+      ),
     );
   }
 }
