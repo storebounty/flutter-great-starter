@@ -1,0 +1,46 @@
+{
+  "APP_ID": "storebounty",
+  "STORE_ID": "[Contact the Store Bounty team]",
+  "X_ACCESS_TOKEN": "[Contact the Store Bounty team]",
+  "BASE_URL": "[Contact the Store Bounty team]",
+  "VERSION": "v1",
+  "THEME": "sabo",
+  "CHECKOUT_THEME":"SOWETO",
+  "PUSHER_KEY":"[Contact the Store Bounty team]",
+  "FORCE_CHECKOUT": true,
+  "EMAIL_VALIDATION": false,
+  "GOOGLE_KEY": "[Contact the Store Bounty team]",
+  "ONBOARDING": [
+    {
+      "ID": 1,
+      "TITLE": "Your style tells about you",
+      "DESCRIPTION": "There are many clothes with designs that are suitable for you today",
+      "IMAGE": "",
+      "BUTTON_TEXT": "Continue"
+    },
+    {
+      "ID": 2,
+      "TITLE": "Level up your lifestyle",
+      "DESCRIPTION": "There are many clothes with designs that are suitable for you today",
+      "IMAGE": "",
+      "BUTTON_TEXT": "Continue"
+    },
+    {
+      "ID": 3,
+      "TITLE": "Your style tells about you",
+      "DESCRIPTION": "There are many clothes with designs that are suitable for you today",
+      "IMAGE": "",
+      "BUTTON_TEXT": "Get started"
+    }
+  ],
+  "CHECKOUT_THEMES": [
+    {
+      "NAME": "version1",
+      "ACTIVE": true
+    },
+    {
+      "NAME": "version2",
+      "ACTIVE": false
+    }
+  ]
+}
