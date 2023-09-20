@@ -1,15 +1,15 @@
 {
   "APP_ID": "storebounty",
-  "STORE_ID": "72537",
-  "X_ACCESS_TOKEN": "7Xf3gRyZoHMbC9DqUL8TtNxlWnJv4puE6a5Ksz1QVA2GBSYec0rFijOPmwh",
-  "BASE_URL": "https://apis-dev.ibunchng.com",
+  "STORE_ID": "",
+  "X_ACCESS_TOKEN": "",
+  "BASE_URL": "",
   "VERSION": "v1",
   "THEME": "sabo",
   "CHECKOUT_THEME":"SOWETO",
-  "PUSHER_KEY":"9d9811c35339e56ab418",
+  "PUSHER_KEY":"",
   "FORCE_CHECKOUT": true,
   "EMAIL_VALIDATION": false,
-  "GOOGLE_KEY": "AIzaSyBM1h_LkvrcpRcEAzYVjztCxZcZ0z4ybZA",
+  "GOOGLE_KEY": "",
   "ONBOARDING": [
     {
       "ID": 1,
