@@ -1,4 +1,4 @@
-package com.storebounty.stores.calmdowninc
+package com.storebounty.stores.chefpepper
 
 import io.flutter.embedding.android.FlutterActivity
 

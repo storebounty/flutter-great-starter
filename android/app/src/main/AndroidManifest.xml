@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.storebounty.stores.calmdowninc">
+    package="com.storebounty.stores.chefpepper">
    <application
         android:label="Calm Down Inc"
         android:name="${applicationName}"
