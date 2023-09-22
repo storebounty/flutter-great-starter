@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.calmdowninc.com">
+    package="com.storebounty.stores.calmdowninc">
    <application
         android:label="customer_app_demo"
         android:name="${applicationName}"
